@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.project.payment.object">
+	
+	<class name="Payment" table="PAYMENT_DETAILS">
+
+		<id name="pid" column="PAYMENT_ID" type="int">	
+		<generator class="increment" />	
+		</id>	
+		<property name="date"  column="PAYMENT_DATE" />
+		<property name="price"  column="PRICE" type="float"/>
+		<property name="payFormat"  column="PAYMENT_FORMAT" type="string"/>
+		<property name="tax" column="TAX_RATE" type="float"/>
+		<property name="vat" column="VAT_RATE" type="float"/>
+		
+	</class>
+</hibernate-mapping>

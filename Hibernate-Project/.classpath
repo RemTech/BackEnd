@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/antlr-2.7.4.jar"/>
+	<classpathentry kind="lib" path="libs/c3p0-0.9.0.jar"/>
+	<classpathentry kind="lib" path="libs/cglib-full-2.0.2.jar"/>
+	<classpathentry kind="lib" path="libs/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="libs/dom4j-1.5.2.jar"/>
+	<classpathentry kind="lib" path="libs/ehcache-1.1.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate3.jar"/>
+	<classpathentry kind="lib" path="libs/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="libs/jta.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.9.jar"/>
+	<classpathentry kind="lib" path="libs/mysql.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-8.0.28.jar"/>
+	<classpathentry kind="lib" path="libs/tools.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
