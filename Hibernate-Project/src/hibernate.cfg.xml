@@ -13,8 +13,8 @@
 <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 <property name="show_sql">true</property>
 <property name="format_sql">true</property>
-<!--<property name="hbm2ddl.auto">update</property>-->
-<property name="hbm2ddl.auto">create</property>
+<property name="hbm2ddl.auto">update</property>
+<!--<property name="hbm2ddl.auto">create</property> -->
 <mapping resource="com/project/payment/object/Payment.hbm.xml"/>
 <mapping resource="com/project/product/object/Product.hbm.xml"/>
 </session-factory>

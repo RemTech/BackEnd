@@ -7,7 +7,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
-import com.project.payment.util.HPayment;
+import com.project.util.HPayment;
 
 public class PaymentClient {
 	

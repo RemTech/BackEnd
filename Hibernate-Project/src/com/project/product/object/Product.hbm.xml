@@ -1,1 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.project.product.object">
+	
+	<class name="Product" table="PRODUCT_DETAILS">
+
+		<id name="pid" column="PRODUCT_ID" type="int">	
+		<generator class="increment" />	
+		</id>	
+		<property name="date"  column="PRODUCT_DATE" />
+		<property name="price"  column="PRICE" type="int"/>
+		<property name="productName"  column="PRODUCT_NAME" type="string"/>
+		<property name="manufacturer" column="MANUFACTURER" type="string"/>
+		<property name="vat" column="VAT_RATE" type="int"/>
+		<many-to-one name="payment" class="com.project.payment.object.Payment" column="ppid"/> 
+	</class>
+</hibernate-mapping>
+
