@@ -13,10 +13,12 @@
 <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 <property name="show_sql">true</property>
 <property name="format_sql">true</property>
-<property name="hbm2ddl.auto">update</property> 
-<!--<property name="hbm2ddl.auto">create</property>-->
+<!--<property name="hbm2ddl.auto">update</property> -->
+<property name="hbm2ddl.auto">create</property>
 <mapping class="com.project.object.course.Course"/>
 <mapping class="com.project.object.student.Student"/>
+<mapping class="com.project.object.university.University"/>
+<mapping class="com.project.object.lecturer.Lecturer"/>
 </session-factory>
     
 </hibernate-configuration>
