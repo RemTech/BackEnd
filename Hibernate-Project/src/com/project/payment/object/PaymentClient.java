@@ -12,9 +12,9 @@ import com.project.util.HPayment;
 public class PaymentClient {
 	
 public static void main(String[] args) {
-	 SessionFactory sf;
-	  Transaction tx;
-	 Session os;
+	 SessionFactory sf=null;
+	  Transaction tx=null;
+	 Session os=null;
 	 boolean check=false;
 	 try {	/* Logic Execution */
 		 sf=HPayment.getSessionFactory();
